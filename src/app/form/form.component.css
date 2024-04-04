@@ -1,0 +1,49 @@
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .weatherData p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .weatherData {
+    margin-top: 20px;
+    padding: 20px;
+    
+    border-radius: 5px;
+    width: 500px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    ;
+    
+  } 
+
+  .firstline{
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.secondLine{
+    
+    justify-content: center;
+}
